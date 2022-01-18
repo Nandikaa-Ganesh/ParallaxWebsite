@@ -1,0 +1,76 @@
+body, html{
+   height:100%;
+   margin:0;
+   font-size:20px;
+   font-family:"sitka banner"; 
+   font-weight: 500;
+   line-height: 0.7cm;
+   color:black;
+}
+
+.pimg1,.pimg2,.pimg3,.pimg4,.pimg5,.pimg6{
+    position: relative;
+    opacity: 0.8;
+    background-position: center;
+    background-size:cover ;
+    background-repeat:no-repeat;
+    background-attachment: fixed;
+}
+
+.pimg1{
+    background-image:url("../hogwarts.jpg");
+    min-height:100%;
+}
+
+.pimg2{
+    background-image:url("../gryffindor.jpg");
+    min-height:100%;
+}
+
+.pimg3{
+    background-image:url("../ravenclaw.jpg");
+    min-height:100%;
+}
+
+.pimg4{
+    background-image:url("../hufflepuff.jpg");
+    min-height:100%;
+}
+
+.pimg5{
+    background-image:url("../slytherin.jpg");
+    min-height:100%;
+}
+
+.pimg6{
+    background-image:url("../credits.jpg");
+    min-height:100% ;
+}
+
+.section{
+    text-align:center;
+    font-family: "Goudy old style";
+    padding: 50px 80px;
+}
+
+.section-light{
+    background-color:lavender;
+    color:rgb(38, 133, 128);
+}
+
+.section-dark{
+    background-color:khaki;
+    color:darkgoldenrod;
+}
+
+.ptext{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    text-align: center;
+    color: moccasin;
+    font-size: 27px;
+    font-family: "sitka banner";
+    letter-spacing: 7px;
+    text-transform: uppercase;
+}
